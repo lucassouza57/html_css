@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
@@ -14,7 +15,7 @@
   <main>
     <article>
       <h3>Seu resultado</h3>
-      <div>
+      <div class="bola">
         <div class="resultado">76</div>
         de 100
       </div>
@@ -25,40 +26,40 @@
     <nav>
       <ul>
         <h3> Resumo</h3>
-        <li>
+        <li id="l1">
           <a href="#">
-            Reação
-            80 / 100
+            <span id="s1">Reação</span>
+            <strong>80</strong> / 100
           </a>
         </li>
-        <li>
+        <li id="l2">
           <a href="#">
-            Memória
-            92 / 100
+            <span id="s2">Memória</span>
+            <strong>92</strong> / 100
           </a>
         </li>
-        <li>
+        <li id="l3">
           <a href="#">
-            Verbal
-            61 / 100
+            <span id="s3">Verbal</span>
+            <strong>61 </strong>/ 100
           </a>
         </li>
-        <li>
+        <li id="l4">
           <a href="#">
-            Visual
-            72 / 100
+            <span id="s4">Visual</span>
+            <strong>72 </strong>/ 100
           </a>
         </li>
       </ul>
-      <a href="#">Continue</a>
+      <a href="#" id="continue">Continue</a>
     </nav>
     
   </main>
   
   
     <footer>
-      Desafio por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      codificado por <a href="#">Your Name Here</a>.
+      Desafio por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+      codificado por <a href="#">Lucas de Souza Santos</a>.
     </footer>
   
 </body>

@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonte01';
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+    --cor01:#6d4dfa;
+    --cor02:#3929df;
+  
+}
+
+body {
+    font-family: 'fonte01', sans-serif;
+}
+
+main {
+    margin: auto;
+}
+
+article {
+    color: white;
+    text-align: center;
+    font-family: 'fonte01', sans-serif;
+   background-image: linear-gradient(to bottom, var(--cor01) , var(--cor02));
+   height: 300px;
+   width: 200px;
+   border-radius: 20px;
+   margin-left: 100px;
+   padding: 10px;
+}
+
+.bola {
+    background-image: linear-gradient(to bottom,var(--cor02), var(--cor01));
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.resultado {
+    font-size: 2em;
+    padding: 25px 0px 5px 0px;
+}
+
+article p {
+    font-size: .9em;
+    font-weight: normal;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    margin-bottom: 60px;
+}
+#s1 {
+    margin: 5px;
+    padding: 5px 30px 10px 0px;
+    color: rgba(255, 39, 39, 0.596);
+    font-weight: bold;
+}
+
+#s2 {
+    margin: 5px;
+    padding: 5px 20px 10px 0px;
+    color: rgba(196, 196, 39, 0.699);
+    font-weight: bold;
+}
+
+#s3 {
+    margin: 5px;
+    padding: 5px 38px 10px 0px;
+    color: rgba(32, 116, 32, 0.726);
+    font-weight: bold;
+}
+
+#s4 {
+    margin: 5px;
+    padding: 5px 40px 10px 0px;
+    color: rgba(81, 81, 248, 0.719);
+    font-weight: bold;
+}
+
+nav li {
+    margin: 10px;
+   
+}
+
+#l1 {
+    border-radius: 5px;
+    background-color: rgba(255, 201, 201, 0.336);
+    padding: 5px;
+}
+
+#l2 {
+    border-radius: 5px;
+    background-color: rgba(253, 253, 204, 0.342);
+    padding: 5px;
+}
+
+#l3 {
+    border-radius: 5px;
+    background-color: rgba(203, 255, 203, 0.329) ;
+    padding: 5px;
+}
+
+#l4 {
+    border-radius: 5px;
+    background-color: rgba(192, 192, 255, 0.315);
+    padding: 5px;
+}
+
+nav {
+    background-color: white;
+    height: 300px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.315);
+    margin-top: -320px;
+    margin-left: 320px;
+}
+
+#continue {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    margin: 25px;
+    padding: 10px 60px 10px 60px;
+    border-radius: 10px;
+    
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(92, 91, 91);
+    color: white;
+    padding: 3px;
+    font-weight: bolder;
+
+}
+
+footer a {
+    color: rgb(230, 227, 227);
+    text-decoration: none;
+}
+footer a:hover {
+    color: rgb(148, 148, 148);
+    text-decoration: underline;
+}
