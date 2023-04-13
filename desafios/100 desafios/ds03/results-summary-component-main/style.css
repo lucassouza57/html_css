@@ -8,17 +8,21 @@
 :root {
     --cor01:#6d4dfa;
     --cor02:#3929df;
-  
+    --cor03:rgb(63, 63, 63);
+    --cor04:rgb(128, 126, 126);
 }
 
 body {
     font-family: 'fonte01', sans-serif;
     
     
+    
 }
 
 main {
     margin: auto;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -30,7 +34,7 @@ article {
    height: 300px;
    width: 200px;
    border-radius: 20px;
-   margin-left: 100px;
+   /*margin-left: 100px;*/
    padding: 10px;
    
 }
@@ -120,6 +124,21 @@ nav li {
     padding: 5px;
 }
 
+#l1:hover {
+    background-color:rgba(255, 201, 201, 0.651) ;
+}
+
+#l2:hover {
+    background-color:rgba(248, 248, 151, 0.795) ;
+}
+
+#l3:hover {
+    background-color: rgba(203, 255, 203, 0.747);
+}
+
+#l4:hover {
+    background-color: rgba(192, 192, 255, 0.747);
+}
 nav {
     background-color: white;
     height: 300px;
@@ -127,17 +146,24 @@ nav {
     padding: 10px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.315);
-    margin-top: -320px;
-    margin-left: 320px;
+    /*margin-top: -320px;
+    margin-left: 320px;*/
 }
 
 #continue {
-    background-color: rgb(63, 63, 63);
+    background-color: var(--cor03);
     color: white;
     margin: 25px;
     padding: 10px 60px 10px 60px;
     border-radius: 10px;
     
+}
+
+#continue:hover {
+    background-color: var(--cor04) ;
+    color: var(--cor03);
+    font-weight: bolder;
+    transition: .4s;
 }
 
 footer {
