@@ -7,7 +7,7 @@
 
 
 body {
-    background-color: darkgrey;
+    background-color: rgb(211, 211, 211);
 }
 
 header {
@@ -45,7 +45,7 @@ section {
 }
 
 .imagem {
-    background-color: rgb(95, 95, 95);
+    background-color: rgb(231, 225, 225);
 }
 
 section.imagem > p {
@@ -53,7 +53,7 @@ section.imagem > p {
     color: rgb(252, 252, 252);
     padding: 5px;
     display: inline-block;
-    background-color: rgba(104, 104, 104, 0.384);
+    background-color: rgba(255, 254, 254, 0.384);
 }
 
 #img01 {
@@ -62,6 +62,7 @@ section.imagem > p {
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom center;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.596);
 }
 
 #img02 {
@@ -70,6 +71,7 @@ section.imagem > p {
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.596);
 }
 
 footer {
