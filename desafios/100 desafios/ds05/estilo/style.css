@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'numeros';
+    src: url('../fontes/numero/BUTTERSHINE\ SERIF.otf') format('opentype');
+    font-size: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'texto';
+    src: url('../fontes/texto/Mermaid1001.ttf') format('truetype');
+    font-size: normal;
+    font-weight: bold;
+
+}
+
+:root {
+    --cor01:#0d2915 ;
+    --cor02:#205c30 ;
+    --cor03:#389c53 ;
+}
+
+
+
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+main {
+    flex-wrap: wrap;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+article {
+    width: 300px;
+    height: 400px;
+    background-image: url('../images/image-product-desktop.jpg');
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+
+section {
+    text-align: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 280px;
+    height: 380px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.103);
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.432);
+    font-size: .9em;
+    font-weight: lighter;
+}
+
+.nome {
+    color: var(--cor01);
+    font-family: 'texto';
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.473);
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+strong {
+    color: var(--cor02);
+    font-size: 2em;
+}
+
+.preço {
+    text-align: center;
+    font-family: 'numeros', serif;
+    font-weight: bolder;
+    color: var(--cor01);
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+section a {
+    color: white;
+    text-decoration: none;
+    background-color:var(--cor02);
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+
+}
+.emoji:before {
+    content: attr(data-emoji);
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+  }
+  
+
+section a:hover {
+    background-color: var(--cor03);
+}
+
+footer {
+    padding-top: 300px;
+}
