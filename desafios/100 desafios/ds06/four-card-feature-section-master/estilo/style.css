@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(204, 204, 204, 0.267);
+}
+
+main h1, p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main h1 {
+    padding-top: 50px;
+    color: rgba(0, 0, 0, 0.384);
+}
+
+main #principal {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: black
+}
+
+.titulo {
+    color: rgba(0, 0, 0, 0.384);
+}
+
+section {
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+article {
+    background-color: white;
+    width: 350px;
+    height: 250px;
+}
+
+.borda01{
+    background-color: green;
+    padding: 2px;
+    border-radius: 10px 10px 0px 0px
+}
+
+
+#surp {
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+
+#surp h2, p {
+    padding: 5px;
+}
+
+#img01{
+    position: relative;
+    top: 25%;
+    right: -130%;
+    transform: translate(-50%, -50%);
+}
+
+#const {
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.borda02 {
+    background-color: red;
+    padding: 2px;
+    border-radius: 10px 10px 0px 0px
+}
+
+#const h2, p {
+    padding: 5px;
+} 
+
+#const #img02 {
+    position: relative;
+    top: 25%;
+    right: -130%;
+    transform: translate(-50%, -50%);
+}
+
+#carma {
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.borda03 {
+    background-color: yellow;
+    padding: 2px;
+    border-radius: 10px 10px 0px 0px
+}
+
+#carma  h2, p {
+    padding: 5px;
+}
+
+#carma #img03 {
+    position: relative;
+    top: 25%;
+    right: -130%;
+    transform: translate(-50%, -50%);
+}
+
+#calc {
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.borda04 {
+    background-color: blue;
+    padding: 2px;
+    border-radius: 10px 10px 0px 0px
+}
+
+#calc h2, p {
+    padding: 5px;
+}
+
+#calc #img04 {
+    position: relative;
+    top: 25%;
+    right: -130%;
+    transform: translate(-50%, -50%);
+}
