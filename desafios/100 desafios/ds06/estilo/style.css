@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(90, 142, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    margin: 50px auto auto auto;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.473);
+    padding-top: 15px;
+}
+
+.imagem {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    background-image: url("../images/image-qr-code.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(2, 103, 255);
+    color: white;
+    margin-top: 100px;
+    padding: 5px;
+}
+
+footer a {
+    color: wheat;
+    text-decoration: none;
+}
