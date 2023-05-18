@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #02354e;
+    background-image: url('../images/img01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header { 
+    margin: 50px 0px 70px 20px;
+    display: block;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+main picture, img {
+    max-width: 100%;
+    height: auto;
+    margin: auto
+}
+
+#conteudo {
+    margin-top: 100px;
+    color: white;
+    width: 500px;
+    height: 250px;
+
+}
+
+#conteudo h1, p{
+    padding: 10px;
+}
+
+#conteudo h1 {
+    font-size: 2em;
+}
+
+#botao {
+    text-align: center;
+    margin: 20px;
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    width: 70px;
+    border-radius: 20px;
+}
+
+#botao:hover {
+    background-color: #e631c775;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+}
+
+#botao a {
+    color: rgba(0, 0, 0, 0.74);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#botao a:hover {
+    color: white;
+}
+
+
+
+
+footer {
+    background-color: white;
+    margin-top: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #022638;
+    text-decoration: underline;
+}
