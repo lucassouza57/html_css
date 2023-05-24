@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        input {
+            margin: 5px;
+        }
+        div {
+            padding: 5px;
+        }
+        fieldset {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+
+    <form action="cadastro.php" method="get">
+        <div>
+            <label for="iano">Em que ano você nasceu :</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2023" oninput="calcIdade()">
+        </div>
+        <div>
+            <label for="iidade">Esse ano você faz :</label>
+            <output id="iidade">0</output>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+    <script>
+        function calcIdade() {
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(iano.value)
+
+        }
+    </script>
+    
+</body>
+</html>
