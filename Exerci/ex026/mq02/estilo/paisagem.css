@@ -1,3 +1,7 @@
 @charset "UTF-8";
 
 /*estilo para a paisagem*/
+
+body {
+    background-color: red;
+}
