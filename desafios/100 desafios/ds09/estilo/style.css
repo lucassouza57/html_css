@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #2BB4B1;
+    --cor02: #68b4b3;
+    --cor03: #C1DF33;
+    --cor04: #8fdf33;
+    --cor05: #9cbbbb;
+}
+
+
+body {
+    margin: 10px;
+    background-color: var(--cor05);
+}
+main {
+    width: 800px;
+    height: 200px;
+    margin: 100px auto 0px auto;
+
+}
+article {
+    background-color: white;
+    width: 860px;
+    height: 200px;
+    margin: auto;
+    box-shadow: 2px 2px  5px  rgba(0, 0, 0, 0.438);
+    border-radius: 10px 10px 0px 0px;
+}
+
+article h1 {
+    font-size: 1.4em;
+    padding: 5px;
+    color: var(--cor01);
+}
+
+article h2 {
+    color: #C1DF33;
+    padding: 5px;
+}
+
+article p {
+    color: rgba(0, 0, 0, 0.452);
+    padding: 10px;
+}
+
+section h2 {
+    font-size:1.2em ;
+    padding: 5px;
+    color: white;
+}
+
+section p {
+    font-size: 1em;
+    padding: 5px;
+    color: white;
+}
+
+#preço {
+    color: rgba(255, 255, 255, 0.582);
+}
+
+#preço strong {
+    font-size: 2.5em;
+    color: white;
+}
+
+#botao {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+#botao a {
+    text-align: center;
+    background-color: var(--cor04);
+    padding: 15px 150px 15px 150px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.5);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#primeiro p {
+    margin-bottom: 8px;
+}
+
+#primeiro {
+    width: 400px;
+    background-color: var(--cor01);
+    margin: 0px;
+    padding: 10px;
+    box-shadow: 2px 2px  5px  rgba(0, 0, 0, 0.438);
+    border-radius: 0px 0px 0px 10px;
+}
+
+#segundo {
+    width: 400px;
+    height: 203px;
+    background-color: var(--cor02);
+    margin: -243px -73px 0px 420px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
+    border-radius: 0px 0px 10px 0px;
+}   
+
+#segundo h3 {
+    color: white;
+}
+
+#segundo p {
+    color: rgba(255, 255, 255, 0.664);
+}
+
+footer {
+    background-color: white;
+    margin-top: 900px;
+    text-align: start;
+    padding: 10px;
+}
+
+footer a {
+    width: 100vw;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: var(--cor01);
+    text-decoration: underline;
+}
