@@ -1,0 +1,17 @@
+@charset "UTF8";
+
+@media screen and (min-width:768px) {
+
+    #botao-menu{
+        display: none;
+    }
+
+    #itensmenu {
+        display: block;
+    }
+
+    #itensmenu li {
+        display: inline-block;
+    }
+}
+
