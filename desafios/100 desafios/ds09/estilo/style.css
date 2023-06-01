@@ -1,7 +1,10 @@
 @charset "UTF8";
 
 :root {
-    
+    --cor01 :#54e6df60;
+    --cor02 :#2BB5AD;
+    --cor03 :#5cbdbb;
+    --cor04 :#BEDF32;
 }
 
 
@@ -12,10 +15,132 @@
     padding: 0px;
 }
 
-html, body {
+html {
     width: 100vw;
+    background-color: var(--cor01);
 }
 
-#cabeçalho {
 
+
+#cabeçalho {
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#cabeçalho h1 {
+    font-size: 1.5em;
+    color: var(--cor02);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#cabeçalho h2 {
+    font-size: 1.2em;
+    color: var(--cor04);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#cabeçalho p {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.425);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#valores {
+    width: 400px;
+    background-color: var(--cor02);
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+
+#valores h2{
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#valores p {
+    margin-bottom: 15px;
+}
+
+#preço-por-mes {
+    color: rgba(255, 255, 255, 0.548);
+    display: block;
+}
+
+#preço-por-mes strong {
+    color: white;
+    font-size: 2.5em;
+    padding-right: 15px ;
+}
+
+div {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#botao-de-increver {
+    background-color: var(--cor04);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-right: 125px;
+    padding-left: 125px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.301);
+    
+}
+
+#botao-de-increver:hover {
+    background-color: white;
+    color: var(--cor04);
+    font-weight: bold;
+}
+
+#pq-usar {
+    width: 400px;
+    background-color: var(--cor03);
+    margin: auto;
+    padding: 10px;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#pq-usar h2 {
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#pq-usar p {
+    margin-bottom: 2px;
+    color: rgba(255, 255, 255, 0.712);
+}
+
+footer {
+    margin-top: 500px;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--cor03);
+    font-size: .8em;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor04);
 }
