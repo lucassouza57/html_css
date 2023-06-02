@@ -1,0 +1,40 @@
+@charset "UTF8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+
+    #login {
+        width: 90vw;
+    }
+
+    #imagem {
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+
+    #formulario {
+        width: 60%;
+        height: 100%;
+        float: right;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+
+    #login {
+        width: 950px;
+    }
+    
+    #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #formulario {
+        width: 50%;
+        float: right;
+    }
+}
