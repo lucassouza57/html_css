@@ -33,7 +33,7 @@ main {
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 510px;
+    height: 550px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(2, 2, 2, 0.349);
@@ -76,10 +76,25 @@ label {
     display: none;
 }
 
+span {
+    font-size: 3em;
+    width: 40px;
+    padding: 5px;
+}
+
+input {
+    width: calc(100% - 48px);
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    transform: translateY(-4px);
+}
+
 input[type=submit] {
     display: block;
     width: 100%;
     height: 40px;
+    margin-top: 20px;
     background-color: var(--cor02);
     color: white;
     font-weight: bold;
