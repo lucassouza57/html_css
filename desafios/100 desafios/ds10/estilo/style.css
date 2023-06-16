@@ -1,0 +1,107 @@
+@charset "UTF-8" ;
+
+:root {
+    --cor01: #E38525;
+    --cor001: #704418;
+    --cor02: #016871;
+    --cor03: #003F3E;
+
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+section {
+    display: block;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 500px;
+    color: white;
+    box-shadow: 5px 5px  10px rgba(0, 0, 0, 0.486);
+    border-radius: 5px;
+}
+
+#sedas {
+    background-color: var(--cor01);
+    border-radius: 5px 5px 0px 0px;
+    height: 350px;
+    padding: 30px;
+}
+
+#sedas a {
+    color: var(--cor01);
+}
+
+#sedas a:hover {
+    background-color:var(--cor001) ;
+    color: white;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+.botao a {
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 50px 10px 50px;
+    border-radius: 30px;
+}
+
+#suvs {
+    background-color: var(--cor02);
+    height: 350px;
+    padding: 30px;
+}
+
+#suvs a {
+    color: var(--cor02);
+}
+
+#suvs a:hover {
+    background-color: var(--cor03);
+    color: white;
+}
+
+#luxo {
+    background-color: var(--cor03);
+    height: 350px;
+    padding: 30px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#luxo a {
+    color: var(--cor03);
+}
+
+#luxo a:hover{
+    background-color: #016871;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    color: #003F3E;
+    text-decoration: underline;
+}
