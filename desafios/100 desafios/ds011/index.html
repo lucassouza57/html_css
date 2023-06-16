@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="estilo/style.css">
+  
+  <title>Frontend Mentor | Componente de classificação interativa</title>
+</head>
+<body>
+
+  <main>
+    <section id="inicio">
+      <!-- Início do estado de classificação -->
+      <img src="images/icon-star.svg" alt="estrela">
+      <h1>Como fizemos?</h1>
+      <p>
+        Por favor, deixe-nos saber como fizemos com o seu pedido de suporte. Todos os comentários são apreciados
+        para nos ajudar a melhorar a nossa oferta!
+      </p>
+      <div>
+        <input type="button" value="1" class="botao-nota" id="1" onclick="selecionarBotao()">
+        <input type="button" value="2" class="botao-nota" id="2" onclick="selecionarBotao()">
+        <input type="button" value="3" class="botao-nota" id="3" onclick="selecionarBotao()">
+        <input type="button" value="4" class="botao-nota" id="4" onclick="selecionarBotao()">
+        <input type="button" value="5" class="botao-nota" id="5" onclick="selecionarBotao()">
+      </div>
+      <div>
+        <input type="button" value="Enviar" id="botao-enviar" onclick="nota()">
+      </div>
+    </section>
+    <section id="fim">
+      <!-- Fim do estado de classificação -->
+      <!-- obrigado início do estado -->
+      <div id="imagem"><img src="images/illustration-thank-you.svg" alt="imagem de nota"></div>
+      <div id="avaliaçao">Você selecionou de 5</div>
+      <h1>Obrigado!</h1>
+      <p>Agradecemos por dedicar seu tempo para avaliar. Se você precisar de mais suporte, não hesite em contactar!</p>
+      <!-- obrigado final do estado -->
+    </section>
+    
+  </main>
+    <footer>
+      Desafio por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Codificado por <a href="#">Lucas de Souza Santos</a>.
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
