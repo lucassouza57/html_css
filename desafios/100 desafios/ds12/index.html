@@ -1,37 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <link rel="stylesheet" href="estilo/style.css">
   
-  <title>Frontend Mentor | Age calculator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Aplicativo de calculadora de idade</title>
 </head>
 <body>
-
-  Day
-  DD
-
-  Month
-  MM
-
-  Year
-  YYYY
-
-  -- years
-  -- months
-  -- days
+  <header>
+    <h1>Digite o ano em que nascel</h1>
+  </header>
+<main>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <form>
+      <div class="idade-nacimento">
+        <label for="idia" >Dia</label>
+        <input type="number" name="dia" id="idia" class="idade"  placeholder="DD">
+      </div>
+      
+      <div class="idade-nacimento">
+        <label for="imes" >Mês</label>
+          <input type="number" name="mes" id="imes" class="idade"    placeholder="MM">
+      </div>
+      <div class="idade-nacimento">
+        <label for="iano" >Ano</label>
+        <input type="number" name="ano" id="inao" class="idade" placeholder="AAAA">
+      </div>
+      <div id="confirmar" onclick="calcular()">
+          <img src="images/icon-arrow.svg" alt="iconi">
+      </div>
+    </form>
+
+    <div id="resultado">
+      <p><strong>-- </strong>Ano</p>
+      <hr>
+      <p><strong>--</strong> Dia</p>
+      <hr>
+      <p><strong>--</strong> Mês</p>
+    </div>
+</main>
+  
+<footer>
+      <p>
+        Desafio por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Codificado por <a href="#">Lucas de Souza Santos</a>.
+      </p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

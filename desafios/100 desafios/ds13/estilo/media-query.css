@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+
+:root {
+    --cor01: #2b2246 ;
+}
+
+@media screen and (min-width: 600px){
+    header #botao-menu {
+        display: none;
+    }
+
+    body {
+        margin: auto;
+        width: 70vw;
+    }
+
+    header {
+        width: 80vw;
+    }
+
+    header #logo {
+        margin: 30px;
+        margin-left: -40px;
+     }
+
+    header nav {
+        display: inline;
+        width: none;
+        height: none;
+        margin: none;
+        margin-top: none;
+        text-align: right;
+        background-color: white;  background-image: none;
+        background-repeat: no-repeat;
+        background-position: bottom right ;
+        background-size: none;
+        position: relative;
+        top: -55px;
+        left: 54px;
+        
+    }
+    
+    header li {
+        display: inline;
+    }
+
+    header a {
+        color: var(--cor01);
+    }
+
+    header a:hover {
+        text-decoration: underline;
+    }
+
+    header #vp {
+        border: 2px solid var(--cor01);
+        color: var(--cor01);
+    }
+
+    header #vp:hover {
+        background-color: var(--cor01);
+        color: white;
+    }
+
+    main img {
+        display: block;
+    }
+
+    main {
+       margin: auto;
+        width: 60vw;
+    }
+
+    main #img {
+        display: block;
+        margin: auto;
+        margin-top: -300px;
+        width: 250px;
+        height: 300px;
+        background-color: black;
+        background-image: url('../images/image-intro-desktop.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        top: 685px;
+        left: 180px;
+    }
+    
+    article {
+        
+        margin-top: -400px;
+        margin: auto;
+        width: 500px;
+        padding: 15px;
+        background-color: var(--cor01);
+        color: rgba(255, 255, 255, 0.616);
+        background-image: url('../images/bg-pattern-intro-right-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 300px;
+    } 
+
+    article section {
+        margin-left: 50px;
+        text-align: left;
+    }
+
+    article section > p {
+        color: rgba(255, 255, 255, 0.623);
+    }
+
+    hr {
+        display: none;
+    }
+
+    main img {
+        display: none;
+    }
+
+    main #segun-conteudo {
+        margin-top: 90px;
+    }
+
+    #segun-conteudo section {
+        width: 300px;
+        height: 200px;
+        text-align: center;
+    }
+
+    #segun-conteudo .icon {
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+   
+}
+
+@media screen and (min-width: 740px) {
+    main #img {position: relative;
+        top: 685px;
+        left: 163px;
+    }
+
+    header nav {
+        position: relative;
+        top: -55px;
+        left: -10px;
+    }
+}
