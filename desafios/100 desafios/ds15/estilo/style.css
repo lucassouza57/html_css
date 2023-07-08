@@ -1,0 +1,77 @@
+@charset "UFT-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 0;
+    height: 100vw;
+    background-color: black;
+    background-image: url('../assets/home/background-home-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom bottom;
+}
+
+#logo {
+    display: flex;
+    position: relative;
+    top: 40px;
+    left: 75px;
+}
+
+#botao-hamburguer {
+    display: flex;
+    position: relative;
+    top: 4px;
+    left: 400px;
+    cursor: pointer;
+}
+
+#botao-close {
+    display: none;
+}
+
+#menu {
+    display: none;
+}
+
+header {
+    height: 150px;
+}
+
+
+main {
+    width: 300px;
+    padding: 60px;
+    margin: auto;
+    color: white;
+}
+
+main h2 {
+    font-size: 1em;
+    margin-bottom: 50px;
+}
+
+main h1 {
+    font-size: 8em;
+    margin-bottom: 50px;
+}
+
+main #explorar {
+    display: flex;
+    background-color: white;
+    width: 150px;
+    height: 125px;
+    border-radius: 50%;
+    color: black;
+    position: relative; 
+    top: 150px;
+    left: 100px;
+}
+
+#txt-explorar {
+    margin: auto;
+}
