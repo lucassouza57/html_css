@@ -17,7 +17,7 @@
         text-align: right;
     }
 
-    header #menu {
+    #menu {
         display: inline;
         color: white;
         position: relative;
@@ -25,31 +25,31 @@
         left: 20px;
     }
 
-    header li {
+    #menu li {
         display: inline;
         padding: 10px;
         margin-left: 10px;
     }
 
 
-    header ul {
+    #menu ul {
         list-style: none;
         padding: 0;
         margin: 0;
       }
       
-    header li {
-        display: inline-block;
+    #menu li {
+        display: inline;
         margin-right: 20px;
       }
       
-    header a {
+    #menu a {
         position: relative;
         color:#ffffff; 
         text-decoration: none;
       }
       
-    header a::before {
+    #menu a::before {
         content: "";
         position: absolute;
         width: 100%;
@@ -62,7 +62,7 @@
         transition: all 0.3s ease-in-out;
       }
       
-    nav a:hover::before {
+    #menu a:hover::before {
         visibility: visible;
         transform: scaleX(1);
       }
