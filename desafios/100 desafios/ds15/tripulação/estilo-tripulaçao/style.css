@@ -9,7 +9,7 @@ body {
     width: 0;
     height: 100vw;
     background-color: black;
-    background-image: url('../assets/home/background-home-mobile.jpg');
+    background-image: url('../assets/crew/background-crew-mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom bottom;
@@ -40,7 +40,7 @@ body {
 #menu {
     width: 150px;
     background-color: #ffffff21;
-    display: non;
+    display: none;
     padding: 10px;
     text-align: center;
     border-radius: 15px;
@@ -92,12 +92,12 @@ main {
 }
 
 main h2 {
-    font-size: 8em;
+    font-size: 1em;
     margin-bottom: 50px;
 }
 
 main h1 {
-    font-size: 8em;
+    font-size: 7em;
     margin-bottom: 50px;
 }
 

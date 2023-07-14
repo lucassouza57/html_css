@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-
-  <link rel="stylesheet" href="estilo/style.css">
-  
-  <link rel="stylesheet" href="estilo/media-query.css">
-
-  
   
   <title>Frontend Mentor | Site de turismo espacial</title>
+
+  <link rel="stylesheet" href="estilo-tripulaçao/media-query.css">
+
+  <link rel="stylesheet" href="estilo-tripulaçao/style.css">
+  
 </head>
 <body onresize="mudouTamanho()">
 
@@ -23,8 +22,8 @@
     <div id="botao-hamburguer">
       <img src="assets/shared/icon-hamburger-svg.png" alt="botao hamburger" onclick="clickMenu()">
     </div>
-    <div id="botao-close">
-      <img src="assets/shared/icon-close-svg.png" alt="botao close" onclick="clickMenu()">
+    <div id="botao-close" onclick="clickMenu()">
+      <img src="assets/shared/icon-close-svg.png" alt="botao close">
     </div>
     <nav id="menu">
       <ul>
@@ -38,17 +37,18 @@
 
   <main>
     <article>
-      <h2>Então, você quer viajar para</h2>
-      <h1>Espaço</h1>
-      <p>
-        Vamos encarar; se você quer ir para o espaço, você também pode ir genuinamente para
-        espaço sideral e não pairar no limite dele. Bem, sente-se e relaxe
-        porque vamos dar-lhe uma experiência verdadeiramente fora deste mundo!
-      </p>
+      <h2>02 Conheça sua equipe</h2>
+      <h2>Comandante</h2>
+       <h1>Douglas Hurley</h1>
+       <p>
+         Douglas Gerald Hurley é um engenheiro americano, ex-piloto do Corpo de Fuzileiros Navais
+         e ex-astronauta da NASA. Ele se lançou ao espaço pela terceira vez como
+         comandante da Crew Dragon Demo-2.
+       </p>
     </article>
     <div id="explorar">
       <div id="txt-explorar">
-        <p>Explorar</p>
+        <img src="assets/crew/image-douglas-hurley.png" alt="">
       </div>
     </div>
   </main>
