@@ -1,13 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container {
+            width: 50vw;
+            height: 400px;
+            background-color: lightblue;
+            margin: auto;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .itens {
+            width: 50px;
+            height: 50px;
+            background-color: #1c0080;
+            margin: 5px;
+            text-align: center;
+            color: white;
+        }
+
+        .container-2 {
+            width: 50vw;
+            height: 400px;
+            background-color: rgb(249, 253, 3);
+            margin: auto;
+            margin-top: 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .box {
+     
+            height: 50px;
+            background-color: #ff0000;
+            margin: 5px;
+            text-align: center;
+            color: white;
+            flex-basis: 30px;
+        }
+
+        #iten-1 {
+            flex-grow: 2;
+        }
+
+        #iten-2,
+        #iten-3 {
+            flex-grow: 1;
+        }
+
+    </style>
 </head>
 <body>
     <div class="container">
-        
+        <div class="itens">1</div>
+        <div class="itens">2</div>
+        <div class="itens">3</div>
+        <div class="itens">4</div>
+        <div class="itens">5</div>
+        <div class="itens">6</div>
+    </div>
+
+    <div class="container-2">
+        <div class="box" id="iten-1">1</div>
+        <div class="box" id="iten-2">2</div>
+        <div class="box" id="iten-3">3</div>
     </div>
 </body>
 </html>
