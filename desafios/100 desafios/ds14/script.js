@@ -26,6 +26,3 @@ function calculate() {
     document.getElementById("result").value = result;
 }
 
-
-
-
