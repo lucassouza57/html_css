@@ -1,0 +1,265 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #3DBDFF ;
+    --cor02: #90D4C6;
+    --cor03: #317867;
+    --cor04: #ffff00;
+    --cor05: #575757c9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border-style: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+header {
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
+    padding: 4em;  
+    background-color: var(--cor01);
+    color: white;
+    text-align: center;
+    background-image: url('../images/mobile/image-header.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+header #topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+header #botao_menu {
+    margin-left: 30vw;
+}
+
+header #botao_menu span{
+    font-size: 2em;
+    cursor: pointer;    
+}
+
+header #fechar {
+    display: none;
+}
+
+header nav {
+    display: none;
+    margin: 0 0 8em 0;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    transition: ease-out .3s;
+}
+
+header li {
+    margin-bottom: 1em;
+    list-style: none;
+    padding: .5em 2em;    
+}
+
+
+header a {
+    color: var(--cor05);
+    text-decoration: none;
+    font-weight: bold;
+    padding: .5em 2em;
+    font-size: 1.5em;
+    border:none;
+    border-radius: 1em;
+    transition: ease-out .3s;
+}
+
+header a:hover {
+    color: #fff;
+    box-shadow: inset 0 100px 0 0 var(--cor04);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.171);
+
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 7em;
+}
+
+main #img01{
+    display: block;
+    margin: auto;
+    width: 96.5vw;
+    height: 300px;
+    background-image: url('../images/mobile/image-transform.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+main #img02{
+    display: block;
+    margin: auto;
+    width: 96.5vw;
+    height: 300px;
+    background-image: url('../images/mobile/image-stand-out.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+main .saiba_mais {
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+main .saiba_mais  h2, p, div {
+    margin-top: 2em;
+}
+
+main .saiba_mais h2 {
+    font-size: 2em;
+}
+
+main .saiba_mais p {
+    color: var(--cor05);
+}
+
+main .saiba_mais div > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+main .saiba_mais div > a:hover {
+    padding: 0 2px 5px 2px;
+    border-bottom: 5px solid var(--cor04);
+}
+
+main #design {
+    padding: 10px;
+    width: 93vw;
+    margin: auto;
+    text-align: center;
+    background-image: url("../images/mobile/image-graphic-design.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main #design h3 {
+    margin-top: 15em;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+main #design p {
+    margin: auto;
+    margin-bottom: 2.5em;
+    width: 70vw;
+}
+
+
+main #fotografia {
+    padding: 10px;
+    width: 96%;
+    margin: auto;
+    text-align: center;
+    background-image: url("../images/mobile/image-photography.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main #fotografia h3 {
+    margin-top: 15em;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+main #fotografia p {
+    margin: auto;
+    margin-bottom: 2.5em;
+    width: 70vw;
+}
+
+main #depoimentos {
+    text-align: center;
+}
+
+main #depoimentos h2 {
+    margin-top: 2em ;
+    color: var(--cor05);
+}
+
+main #depoimentos div {
+    width: 300px;
+    margin: 3em auto;
+    
+}
+
+main #depoimentos h3 {
+    margin-top: 2em;
+}
+
+main .cargos {
+    color: var(--cor05);
+    font-weight: bold;
+}
+
+main .fotos_dp img {
+    border-radius: 50%;
+}
+
+main #depoimentos .clientes {
+    padding-bottom: 2em;
+    border-bottom: 1px solid var(--cor05);
+}
+
+footer {
+    background-color: var(--cor02);
+    text-align: center;
+    color: var(--cor03);
+}
+
+
+footer li {
+    margin-bottom: 1.5em;
+    list-style: none;
+}
+
+footer a {
+    font-weight: bolder;
+    color: var(--cor03);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--cor05);
+    border-bottom: 1.5px solid var(--cor05);
+    padding-bottom: 3px;
+}
+
+footer #contato {
+    width: 300px;
+    margin: 3em auto ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer #contato a:hover {
+   border-bottom: none;
+}
+
+footer p {
+    margin-top: 40em;
+}
