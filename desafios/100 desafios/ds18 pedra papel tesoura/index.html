@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="estilo/style.css">
+
+</head>
+<body>
+  <main>
+    <h1>Pedra Papel e Tesoura</h1>
+      <div class="container">
+        <div class="item" data-item="rock" id="rock">
+          <img src="images/icon-rock.svg" alt="Pedra">
+        </div>
+        <div class="item" data-item="paper" id="paper">
+          <img src="images/icon-paper.svg" alt="Papel">
+        </div>
+        <div class="item" data-item="scissors" id="scissors">
+          <img src="images/icon-scissors.svg" alt="Tesoura">
+        </div>
+      </div>
+      <div class="result"></div>
+      <div class="restart" onclick="restart()">Reiniciar</div>
+  </main>
+	<script src="script.js"></script>
+</body>
+</html>

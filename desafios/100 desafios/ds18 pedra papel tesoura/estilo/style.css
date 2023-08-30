@@ -1,0 +1,141 @@
+    @charset "UTF-8";
+
+
+
+		body {
+			background-color: #e0e0e0;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+
+    main {
+      width: 80vw;
+      background: radial-gradient(circle at center, #313d63, #0d1636);
+      padding: 1em;
+      margin: auto;
+      border-radius: 1em;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+		h1 {
+			margin: 2em auto;
+			font-size: 36px;
+			color: #fff;
+		}
+
+		.container {
+      width: 350px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin: 2em auto;
+      padding: 2em 0;
+      border-top: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+		}
+
+		.item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+			background-color: #f0f0f0;
+			border: 3px solid #ccc;
+			border-radius: 50%;
+			padding: 30px;
+			margin: 20px;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+		}
+
+		.item:hover {
+			transform: scale(1.15);
+      border: 6px solid;
+		}
+
+		.item img {
+			width: 100%;
+			height: auto;
+		}
+
+    #rock {
+      border-color: #ffff00;
+    }
+
+    #paper {
+      border-color: blue;
+    }
+
+    #scissors {
+      border-color: #ff0000;
+    }
+
+		.result {
+      width: 300px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+			margin: 2em auto;
+			font-size: 24px;
+			color: #333;
+      
+		}
+
+		.player {
+			font-weight: bold;
+			color: #333;
+		}
+
+		.player-one {
+			color: #f44336;
+		}
+
+		.player-two {
+			color: #4caf50;
+		}
+
+		.player-one-win {
+			color: #f44336;
+			font-size: 36px;
+		}
+
+		.player-two-win {
+			color: #4caf50;
+			font-size: 36px;
+		}
+
+		.tie {
+			color: #fff;
+			font-size: 36px;
+		}
+
+		.restart {
+      width: 150px;
+			margin: 3em auto;
+			font-size: 24px;
+			color: #fff;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+      padding: .5em 1.5em;
+      border: 1px solid #fff;
+      border-radius: 1em;
+		}
+
+		.restart:hover {
+			transform: scale(1.1);
+      background-color: #fff;
+      color: #0d1636;
+      font-weight: bolder;
+		}
+
+    .result img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+			background-color: #fff;
+			border: 3px solid #ccc;
+			border-radius: 50%;
+			padding: 30px;
+			margin: 10px;
+			transition: all 0.3s ease-in-out;
+    }
