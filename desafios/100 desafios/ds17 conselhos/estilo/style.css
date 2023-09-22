@@ -38,6 +38,13 @@ button:hover {
     background-color: #0056b3;
 }
 
+.hidden {
+    display: none;
+    background-color: white;
+}
+
+
+
 #adviceContainer {
     color: #fff;
 }
