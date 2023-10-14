@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0; /* Add this to remove default margin */
+        }
+
+        #mainPhoto { /* Corrected the ID name */
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            margin-bottom: 1em;
+        }
+
+        .img-container {
+            width: 100px;
+            height: 100px;
+            transition: .3s;
+        }
+
+        .img-container:hover {
+            width: 110px;
+            height: 110px;
+            border: 2px solid #fff;
+            margin: 3px;
+        }
+
+        img {
+            border-radius: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <section class="container-galeria"> <!-- Corrected the class name -->
+        <img id="mainPhoto" src="img/imagens/img01.jpg" alt="img 01"> <!-- Corrected the ID -->
+        <div class="container-img">
+            <img src="img/imagens/img02.jpg" alt="img 02" class="img-container"> <!-- Corrected alt text -->
+            <img src="img/imagens/img03.jpg" alt="img 03" class="img-container"> <!-- Corrected alt text -->
+            <img src="img/imagens/img04.jpg" alt="img 04" class="img-container"> <!-- Corrected alt text -->
+            <img src="img/imagens/img05.jpg" alt="img 05" class="img-container"> <!-- Corrected alt text -->
+            <img src="img/imagens/irina-blok-pq.jpg" alt="img 06" class="img-container"> <!-- Corrected alt text -->
+        </div>
+    </section>
+    <script>
+        let imagens = Array.from(document.getElementsByClassName("img-container"));
+        let mainPhoto = document.getElementById("mainPhoto"); // Corrected the ID
+
+        function updateImage(event) {
+            let image = event.target;
+            mainPhoto.src = image.src;
+        }
+
+        imagens.forEach(function(image){
+            image.addEventListener("click", updateImage);
+        });
+    </script>
+</body>
+</html>

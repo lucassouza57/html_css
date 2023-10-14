@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+:root {
+    --cor01:#9ed1f1;
+    --cor02:#084F8C;
+    --cor03:#032542;
+    --cor04:#622C32;
+
+}
+
+@font-face {
+    font-family: "fonte01";
+    src: url('../fonts/cream_cake/Cream\ Cake.otf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border-style: 0;
+}
+
+body, html {
+    background: linear-gradient(to bottom, var(--cor03), var(--cor02), var(--cor01));
+}
+
+header {
+    height: 600px;
+    background-color: transparent;
+    background-image: url('../imagens/Header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top  center;
+    margin-bottom: 2em;
+}
+
+main {
+    padding: 1em;
+    margin: auto;
+    text-align: center;
+}
+
+main h1 {
+    color: #fff;
+    font-family: "fonte01";
+    font-size: 3em;
+    margin-bottom: 3em;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
+}
+
+main h1>strong {
+    color: var(--cor01);
+    font-size: 2em;
+
+}
+
+/*galeria de bolos grandes */
+
+.container-galeria {
+    margin-bottom: 3em;
+}
+
+#mainPhoto { /* Corrigido o nome do ID */
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 1em;
+    box-shadow: 5px 5px 10px #00000079;
+    border: 2px solid #fff;
+}
+
+.img-container {
+    width: 100px;
+    height: 100px;
+    transition: .3s;
+}
+
+.img-container:hover {
+    width: 110px;
+    height: 110px;
+    border: 2px solid #fff;
+    margin: 3px;
+}
+
+img {
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.menu_bolos {
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 1em;
+    box-shadow: 5em 5em 10em rgba(0, 0, 0, 0.507);
+    margin-bottom: 3em;
+}
+
+.menu_bolos h2 {
+    color: var(--cor02);
+    font-family: "fonte01";
+    font-size: 3em;
+    margin-bottom: 1em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
+}
+
+.menu_bolos ul {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.menu_bolos ul>li {
+    list-style: none;
+    margin-bottom: .5em;
+    color: var(--cor04);
+}
+
+/*galerias de bolos de pote*/
+
+.galeria-bolo-de-pote {
+    margin-bottom: 3em;
+}
+
+#mainPhoto02 { /* Corrigido o nome do ID */
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 1em;
+    box-shadow: 5px 5px 10px #00000079;
+    border: 2px solid #fff;
+}
+
+.img-container02 {
+    width: 100px;
+    height: 100px;
+    transition: .3s;
+}
+
+.img-container02:hover {
+    width: 110px;
+    height: 110px;
+    border: 2px solid #fff;
+    margin: 3px;
+}
+
+img {
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+footer {
+    height: 500px;
+    background-color: var(--cor02);
+    text-align: center;
+    padding: 1em;
+}
+
+footer h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 4em;
+    font-family: "fonte01";
+    color: #fff;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
+}
+
+footer p {
+    font-size: 1.5em;
+    color: #fff;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
+    margin-bottom: 2em;
+}
+
+
+footer  a {
+    text-decoration: none;
+    font-size: 2em;
+    margin: 0 1em;
+    color: #fff;
+}
+
+
+.telegram {
+    margin-bottom: 2em;
+    padding: 1em 2em;
+    cursor: pointer;
+    gap: 0.4rem;
+    font-weight: bold;
+    border-radius: 1em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.514);
+    background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+    background-size: 300%;
+    color: #fff;
+    border: none;
+    background-position: left center;
+    box-shadow: 0 30px 10px -20px rgba(0,0,0,.2);
+    transition:.3s ease;
+  }
+  
+  .telegram:hover {
+    background-size: 320%;
+    background-position: right center;
+  }
+  
+  .telegram:hover svg {
+    fill: #fff;
+  }
+  
+  .telegram svg {
+    width: 23px;
+    fill: #f09f33;
+    transition: .3s ease;
+  }
+
+  .whats {
+      margin: 3em 1em;
+    padding: 1em 2em;
+    cursor: pointer;
+    gap: 0.4rem;
+    font-weight: bold;
+    border-radius: 1em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.514);
+    background: linear-gradient(15deg, #278800, #37a10d, #4aad23, #71b855, #93d479, #93d479, #37a10d, #37a10d, #278800) no-repeat;
+    background-size: 300%;
+    color: #fff;
+    border: none;
+    background-position: left center;
+    box-shadow: 0 30px 10px -20px rgba(0,0,0,.2);
+    transition:.3s ease;
+  }
+  
+  .whats:hover {
+    background-size: 320%;
+    background-position: right center;
+  }
+  
+  .whats:hover svg {
+    fill: #fff;
+  }
+  
+  .whats svg {
+    width: 23px;
+    fill: #144401;
+    transition: .3s ease;
+  }
+
+  .container-obs {
+    width: 150px;
+    padding: .3em;
+    margin: 1.5em auto;
+    border: 2px solid var(--cor04);
+    border-radius: 1em;
+  }
+
+  .container-obs p {
+    margin-bottom: .3em;
+  }
+
+
+  @media screen and (min-width: 600px) {
+    header {
+        height: 1270px;
+    }
+
+    body, html{
+        font-size: 1.5em;
+    }
+
+    #mainPhoto {
+        width: 70vw;
+        height: 600px;
+    }
+    
+    .container-obs {
+        width: 400px;
+    }
+  }

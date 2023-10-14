@@ -1,0 +1,64 @@
+:root {
+    --cor01: #0367A6;
+    --cor02: #048ABF;
+    --cor03: #8FD4F2;
+
+}
+
+.home_container {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em auto;
+}
+
+.home_container h1 {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+.home_container h1 span {
+    font-size: 1.5em;
+    color: var(--cor01);
+    padding: 0 .2em;
+    background-color: #fff;
+    border: 2px solid var(--cor01);
+}
+
+.home_container h1 span:hover {
+    color: #fff;
+    background-color: var(--cor02);
+}
+
+.home_container p {
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+    color: #7b7b7b;
+}
+
+.home_container img {
+    width: 350px;
+    margin-bottom: 2em 0;
+}
+
+.bolo_container {
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.bolo_container img {
+    width: 300px;
+    box-shadow: 5px 5px 10px #00000070;
+    border-radius: 1em;
+    margin-bottom: 2.5em;
+}
+
+
+
