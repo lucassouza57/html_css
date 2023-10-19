@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    border-style: 0;
+}
+
+.sobre {
+    display: flex;
+    margin: 3em 1em;
+    padding: 1em;
+    border-bottom: 2px solid #808080;
+}
+
+.titulo_principal {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo_principal h1 {
+    font-size: 4vw;
+    margin-bottom: .5em;
+}
+
+#titulo02 {
+    font-size: 8vw;
+}
+
+#apresentacao {
+    width: 600px;
+    padding: 1em;
+    margin-top: 4em;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.contato li {
+    margin-left: 2em;
+    list-style: none;
+}
+
+.contato li > a {
+    color: #000;
+}
+
+
