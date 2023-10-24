@@ -1,0 +1,83 @@
+@charset "ULT-8" ;
+
+:root {
+    --cor01:#37384E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border-style: 0;
+
+}
+
+html, body {
+    background-color: var(--cor01);
+}
+
+.container {
+    width: 375px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 0 0 1em 1em;
+}
+
+.container h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.container p {
+    margin-bottom: 1em;
+}
+
+.container ul {
+    margin-bottom: 1.5em;
+}
+
+.container ul > li {
+    margin-bottom: .5em;
+    list-style: none;
+}
+
+.container ul > li > img {
+    margin-right: .5em;
+}
+
+.container_assunto {
+    padding: 1.5em;
+    
+}
+
+form #imail{
+ padding: .5em;
+ border-radius: .5em;
+ border: 1px solid black;
+ margin-bottom: 2em;
+}
+
+form label {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+form #btn {
+    padding: 1em 5em;
+    border-radius: 1em;
+    border: 1px solid #000;
+    background-color: var(--cor01);
+    color: #ffff;
+    font-weight: bolder;
+    margin: auto;
+    cursor: pointer;
+}
+
+.container_msg {
+    display: none;
+}
+
+.container_msg {
+    width: 400px;
+    background-color: #000;
+}
