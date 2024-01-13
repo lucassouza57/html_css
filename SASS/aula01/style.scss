@@ -1,0 +1,13 @@
+main {
+    h1 {
+        background: red;
+    }
+
+    p {
+        background-color: blue;
+    }
+
+    &:hover {
+        background-color: yellow;
+    }
+}

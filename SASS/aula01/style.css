@@ -1,0 +1,11 @@
+main h1 {
+  background: red;
+}
+main p {
+  background-color: blue;
+}
+main:hover {
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
