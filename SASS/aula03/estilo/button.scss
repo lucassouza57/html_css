@@ -1,0 +1,14 @@
+
+.btn {
+    padding: .5em 2.5em;
+    border: 0;
+    background: none;
+    border-radius: .5em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.btn-cor {
+    @extend .btn;
+    background: $cor01;
+}

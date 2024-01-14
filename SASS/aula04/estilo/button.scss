@@ -1,0 +1,29 @@
+
+.btn {
+    padding: .5em 2.5em;
+    border: 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+    background: none;
+    border-radius: .5em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+@mixin button-styles($backgrond, $color){
+    background: $backgrond;
+    color: $color;
+}
+
+.btn-cor01 {
+    @extend .btn;
+    @include button-styles($cor01, #fff )
+}
+
+.btn-cor02 {
+    @extend .btn;
+    @include button-styles($cor02, #fff )
+
+}.btn-cor03 {
+    @extend .btn;
+    @include button-styles($cor03, #fff )
+}
