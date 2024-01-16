@@ -1,0 +1,44 @@
+.container {
+  margin-top: 3em;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn, .btn-cor03, .btn-cor02, .btn-cor01 {
+  padding: 0.5em 2.5em;
+  border: 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+  background: none;
+  border-radius: 0.5em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.btn-cor01 {
+  background: #0099ff;
+  color: #fff;
+}
+.btn-cor01:hover {
+  background: #006bb3;
+}
+
+.btn-cor02 {
+  background: #ff5100;
+  color: #fff;
+}
+.btn-cor02:hover {
+  background: #b33900;
+}
+
+.btn-cor03 {
+  background: #00ff0d;
+  color: #fff;
+}
+.btn-cor03:hover {
+  background: #00b309;
+}
+
+/*# sourceMappingURL=style.css.map */

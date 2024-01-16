@@ -12,7 +12,9 @@
 @mixin button-styles($backgrond, $color){
     background: $backgrond;
     color: $color;
-   
+    &:hover {
+        background: darken($backgrond, 15%)
+    }
 }
 
 .btn-cor01 {
