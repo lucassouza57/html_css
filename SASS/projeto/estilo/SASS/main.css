@@ -1,0 +1,42 @@
+main {
+    margin: auto;
+    margin-bottom: 2em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main section{
+    width: 400px;
+}
+
+main h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+main h2 {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+}
+
+main p {
+    margin-bottom: 2em;
+}
+
+main a {
+    text-decoration: none;
+    padding: .5em 2em;
+    background-color: #ffa500;
+    border-radius: 1em ;
+    color: #000;
+}
+
+main a:hover {
+    background-color: #ff8800;
+}
+
+figcaption img {
+    width: 600px;
+}

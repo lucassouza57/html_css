@@ -1,0 +1,14 @@
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer ul > li {
+    padding: .5em;
+    border-radius: .5em;
+}
+
+footer ul > li:hover {
+    background-color: rgba(125, 159, 252, 0.493);
+    transition: .5s;
+}

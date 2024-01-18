@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    border-style: 0;
+    padding: 0;
+    font-size: 97%;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    color: #1c1c79;
+}
+ 
+body {
+    background-image: url("../../img/bolha-background.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
+}
