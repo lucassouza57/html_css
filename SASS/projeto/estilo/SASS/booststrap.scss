@@ -6,10 +6,11 @@
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     list-style: none;
-    color: #1c1c79;
+    color: $cor02;
 }
  
 body {
+    background-color: $cor04;
     background-image: url("../../img/bolha-background.png");
     background-repeat: no-repeat;
     background-position: left center;

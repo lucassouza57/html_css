@@ -28,9 +28,9 @@ main p {
 main a {
     text-decoration: none;
     padding: .5em 2em;
-    background-color: #ffa500;
+    background-color: $cor03;
     border-radius: 1em ;
-    color: #000;
+    color: #fff;
 }
 
 main a:hover {

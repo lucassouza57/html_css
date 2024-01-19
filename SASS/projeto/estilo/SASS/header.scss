@@ -20,13 +20,13 @@ nav > ul > li {
 
 nav > ul > li > a {
     text-decoration: none;
-    color: #1c1c79;
+    color: $cor02;
     font-size: 1.2em;
 }
 
 nav > ul > li > a:hover {
-    color: #424242;
+    color: $cor01;
     padding: .8em .5em;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid $cor01;
     transition: .3s;
 }
