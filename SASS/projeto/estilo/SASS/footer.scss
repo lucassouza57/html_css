@@ -1,14 +1,15 @@
-footer ul {
-    display: flex;
-    justify-content: space-evenly;
-}
+footer {
+    ul {
+        display: flex;
+        justify-content: space-evenly;
 
-footer ul > li {
-    padding: .5em;
-    border-radius: .5em;
-}
-
-footer ul > li:hover {
-    background-color: $cor01;
-    transition: .5s;
+        li {
+            padding: .5em;
+            border-radius: .5em;
+            &:hover {
+                background-color: $cor01;
+                transition: .5s;
+            }
+        }
+    }
 }

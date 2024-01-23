@@ -5,38 +5,41 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    section {
+        width: 400px;
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 1em;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: .5em;
+        }
+
+        p {
+            margin-bottom: 2em;
+        }
+
+        a {
+            text-decoration: none;
+            padding: .5em 2em;
+            background-color: $cor03;
+            border-radius: 1em;
+            color: #fff;
+            &:hover {
+                background-color: #ff8800;
+            }
+        }
+        
+    }
+
+    figcaption {
+        img {
+            width: 500px;
+        }
+    }
 }
 
-main section{
-    width: 400px;
-}
-
-main h1 {
-    font-size: 2.5em;
-    margin-bottom: 1em;
-}
-
-main h2 {
-    font-size: 1.5em;
-    margin-bottom: .5em;
-}
-
-main p {
-    margin-bottom: 2em;
-}
-
-main a {
-    text-decoration: none;
-    padding: .5em 2em;
-    background-color: $cor03;
-    border-radius: 1em ;
-    color: #fff;
-}
-
-main a:hover {
-    background-color: #ff8800;
-}
-
-figcaption img {
-    width: 600px;
-}

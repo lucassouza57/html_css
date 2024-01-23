@@ -1,5 +1,33 @@
-@media screen and (max-width: 600px){
-    figcaption img {
-        width: 90vw;
+@media screen and (max-width: 600px) {
+    main {
+       
+        section {
+            width: 90vw;
+            article {
+                h1 {
+                    font-size: 2em;
+                    text-align: center;
+                }
+                h2 {
+                    font-size: 1.5em;
+                }
+            }
+        }
+        figcaption {
+            img {
+                width: 90vw;
+            }
+        }
+    }
+
+    header {
+        nav {
+            ul {
+                li {
+                    margin-right: 6em;
+                    font-size: 2vw;
+                }
+            }
+        }
     }
 }
