@@ -1,0 +1,9 @@
+@media  screen and (max-width: 600px) {
+    body {
+        background-image: url("../images/background-pattern-mobile.svg");
+        background-size: contain;
+    }
+    .container {
+        width: 70vw;
+    }
+}

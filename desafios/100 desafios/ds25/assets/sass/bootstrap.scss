@@ -1,0 +1,21 @@
+* {
+    @font-face {
+        font-family: "font01";
+        src: url("../fonts/WorkSans-VariableFont_wght.ttf");
+    }
+    @font-face {
+        font-family: "font02";
+        src: url("../fonts/WorkSans-Italic-VariableFont_wght.ttf");
+    }
+    margin: 0;
+    padding: 0;
+    border-style: 0;
+    font-family: "font01";
+}
+
+body {
+    background-image: url("../images/background-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
