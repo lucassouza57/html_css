@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo Exercício</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idades</h1>
+    </header>
+    <main>
+        <div>
+            <form action="projeto.php">
+                <div>
+                    <label for="iano">Ano de nacimento : </label>
+                    <input type="number" name="ano" id="iano" placeholder="Digite aqui xxxx" min="4" >
+                </div>
+                <div>
+                    <label for="#">Sexo :</label>
+                    <label for="imas">Masculino : </label>
+                    <input type="radio" name="sexo" id="imas" checked>
+                    <label for="ifem">Feminino : </label>
+                    <input type="radio" name="sexo" id="ifem" >
+       
+                </div>
+                <div id="botao">
+                    <input type="button" value="Verificar" onclick="verificar()">
+                </div>
+            </form>
+                
+        </div>
+        <div id="res">
+            <p>Preencha os dados acima</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

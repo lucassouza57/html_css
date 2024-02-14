@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    background-color: orangered;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header, footer {
+    color: white;
+    text-align: center;
+}
+
+main {
+    width: 480px;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+}
+ 
+div {
+    margin-bottom: 10px;
+}
+
+#lista {
+    width: 200px;
+}

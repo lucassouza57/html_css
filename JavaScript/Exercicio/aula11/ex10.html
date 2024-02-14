@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+    <style>
+        body {
+            background-color: lightskyblue;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            margin: auto;
+            text-align: center;
+        }
+         
+        #detran {
+            display: block;
+            width: 400px;
+            height: 100px;
+            margin: auto;
+            background-image: url('detran-sp-logo-1.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            color: white;
+            text-shadow: 2px 2px 10px black;
+        }
+
+        div {
+            margin-bottom: 40px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        #botao-verificar input {
+            font-weight: bold;
+            padding: 5px 30px 5px 30px;
+            border-radius: 10px;
+            border: .7px solid black;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+        }
+
+        #botao-verificar input:hover {
+            background-color: rgb(57, 114, 168);
+            color: white;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            border: 1px solid rgb(24, 46, 66);
+        }
+
+        label {
+            font-size: 1.3em;
+        }
+
+        input {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <div id="detran"></div>
+        <h1>Sistema de Multas</h1>
+        <div>
+            <label for="ivel">Digite sua velocidade :</label>
+            <input type="number" name="vel" id="ivel" placeholder="Digite sua velocidade aqui"> km/h
+        </div>
+        <div id="botao-verificar">
+            <input type="button" value="Verificar" onclick="calcular()">
+        </div>
+        <div id="resultado"></div>
+    </main>
+
+    <script>
+        function calcular() {
+            var vel = window.document.querySelector('#ivel')
+            var velocidade = Number(vel.value)
+            var resu = window.document.querySelector('#resultado')
+            resu.innerHTML = `<p>Sua velocidade é de <strong>${velocidade}km/h</strong><p>`
+                if (velocidade > 60) {
+                    resu.innerHTML += `<p>Você ultrapassol o limite de velocidade você será <strong>Multado</strong>!</p>`
+                    resu.style.color = 'red'
+                }
+            resu.innerHTML += `<p>Dirija com cuidado, use sempre cinto de segurança!</p>`
+        }
+    </script>
+</body>
+</html>

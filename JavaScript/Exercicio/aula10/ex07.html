@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Valores</title>
+    <style>
+        body {
+            background-color: rgb(10, 80, 10);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        div {
+            margin-bottom: 40px;
+            
+        }
+
+        input {
+            border: none;
+            border-radius: 10px;
+            padding: 5px;
+            font-weight: bold;
+        }
+
+        #botao-soma input {
+            padding: 5px 30px 5px 30px;
+            border-radius: 10px;
+            border: none;
+            font-weight: bold;
+            font-size: 1.1em;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando Valores</h1>
+    <div>
+        <label for="inum1"></label>
+        <input type="number" name="num1" id="inum1" placeholder="Digite um valor"> +
+        <label for="inum2"></label>
+        <input type="number" name="num2" id="inum2" placeholder="Digite um valor">
+    </div>
+    <div id="botao-soma">
+        <input type="button" value="Somar" onclick="soma()">
+    </div>
+    <div id="res">Resultado!</div>
+
+
+    <script>
+        function soma() {
+            var num1 = window.document.querySelector('#inum1')
+            var num2 = window.document.querySelector('#inum2')
+            var n1 = Number(num1.value)
+            var n2 = Number(num2.value)
+            var resu = n1 + n2 
+            res.innerHTML = `O resultado da soma entre <strong>${n1}</strong> e <strong>${n2}</strong> é <strong>${resu}</strong>`
+        }
+    </script>
+</body>
+</html>

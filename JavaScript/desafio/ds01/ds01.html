@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imigração</title>
+    <style>
+        body {
+            background-color: #0533F0;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+        main {
+            width: 450px;
+            background-color: white;
+            margin: auto;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.479);
+        }
+         
+        h1 {
+            color: #05A0FA;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.37);
+        }
+
+        input {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 5px;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+
+        #botao input {
+            padding: 5px 30px 5px 30px;
+            font-weight: bold;
+        }
+
+        #botao input:hover {
+            background-color: #075fe3;
+            font-weight: bold;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Portal de Imigração</h1>
+        <div>
+            <label for="ipais">Em qual pais você vive? </label><br>
+            <input type="text" name="pais" id="ipais"  placeholder="Digite aqui">
+        </div>
+        <div id="botao">
+            <input type="button" value="Consultar" placeholder="Digite aqui " onclick="verificar()" >
+        </div>
+        <div id="verificado"></div>
+    </main>
+
+    <script>
+
+        function verificar() {
+            var pais = window.document.querySelector('#ipais');
+            var veri = window.document.querySelector('#verificado');
+            veri.innerHTML = `<p>Você mora em <strong>${pais.value}</strong></p>`;
+            if (pais.value == 'Brasil') {
+                veri.innerHTML += '<p>Você é <strong>brasileiro!</strong></p>';
+            }else {
+                pais.value != 'Brasil', 'brasil'
+                veri.innerHTML += `<p>Você é <strong>estrangeiro!</strong></p>`
+            }
+
+        }
+    </script>
+
+</body>
+</html>
