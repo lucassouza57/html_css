@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Formulário de inscrição em boletim informativo com mensagem de sucesso</title>
+</head>
+
+<body>
+  <main class="container" id="container-formulario">
+    <figure>
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+    </figure>
+    <section class="container-formulario">
+      <article>
+        <h1>Ficar atualizado!</h1>
+        <h2>Junte-se a mais de 60.000 gerentes de produto que recebem atualizações mensais sobre:</h2>
+        <p><span><img src="assets/images/icon-list.svg" alt="icon list"></span> Descoberta de produtos e construção do
+          que importa</p>
+        <p><span><img src="assets/images/icon-list.svg" alt="icon list"></span> Medir para garantir que as atualizações
+          sejam um sucesso</p>
+        <p><span><img src="assets/images/icon-list.svg" alt="icon list"></span> E muito mais!</p>
+        <form action="#" id="signupForm">
+          <label for="email"><strong>Endereço de email</strong></label>
+          <input type="email" name="email" id="email" placeholder="email@company.com">
+          <button id="submitBtn">Assine a newsletter mensal</button>
+        </form>
+      </article>
+    </section>
+  </main>
+
+  <section class="container-msg-sucesso" id="successMessage" style="display: none;">
+    <figure>
+      <img src="assets/images/icon-success.svg" alt="icon de sucesso">
+    </figure>
+    <article>
+      <h1>Grato pela assinatura!</h1>
+      <p>Um e-mail de confirmação foi enviado para <strong><span id="emailDisplay"></span></strong></p>
+      <p>Abra-o e clique no botão interno para confirmar sua assinatura.</p>
+      <button id="dismissBtn">Dispensar mensagem</button>
+    </article>
+  </section>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+@media only screen and (max-width: 600px) {
+    /* Estilos específicos para celulares */
+.container-formulario { 
+      width: 70vw;
+      #email {
+        width: 55vw;
+      }
+      button {
+        width: 60vw;
+      }
+    }
+}

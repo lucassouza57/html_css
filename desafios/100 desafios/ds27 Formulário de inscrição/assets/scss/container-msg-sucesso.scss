@@ -1,0 +1,23 @@
+.container-msg-sucesso {
+    display: none;
+    background-color: $cor02;
+   width: 350px;
+   padding: 1em;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: auto;
+   margin-top: 3em;
+   border-radius: 1em;
+   box-shadow: 5px 5px 10px #00000079;
+   h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+   }
+   p{
+    margin-bottom: 1em;
+   }
+   figure {
+    width: 4em;
+    margin-bottom: 1em;
+   }
+}

@@ -1,0 +1,37 @@
+.container-formulario {
+    width: 400px;
+    margin: 1em;
+    padding: 1em;
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    h2 {
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+
+    p {
+        margin-bottom: .7em;
+
+        span>img {
+            width: 1em;
+            margin-right: .5em;
+        }
+    }
+
+    label {
+        font-size: .8em;
+    }
+
+    #email {
+        width: 300px;
+        padding: .8em;
+        border-radius: .5em;
+        border: 1px solid black;
+        margin-top: .5em;
+        margin-bottom: 2em;
+    }
+}

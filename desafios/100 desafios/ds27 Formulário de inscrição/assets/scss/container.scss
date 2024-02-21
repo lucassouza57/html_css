@@ -1,0 +1,17 @@
+.container {
+    background: $cor02;
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $cor01;
+    padding: 1em;
+    margin: auto;
+    border-radius: 1em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    figure {
+        width: 400px;
+    }
+}
