@@ -2,5 +2,11 @@
 
 //font
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+//variaveis
+@import "./variaveis.scss";
+//config
+@import"./config.scss";
+//components
+@import "./header.scss";
 //franewor
 @import "./bootstrap.min.scss";

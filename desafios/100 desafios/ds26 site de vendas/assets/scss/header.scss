@@ -1,0 +1,51 @@
+header {
+    background-color: $cor-01;
+    padding: 2em;
+
+    form {
+        input{
+            background-color: $cor-04;
+            width: 100%;
+            border-radius: 1.5em;
+            padding: .5em 1.5em;
+            border: none;
+        }
+
+        button {
+            background: none;
+            border: none;
+            position: absolute;
+            right: 26em;
+        }
+    }
+     
+    ul {
+        li {
+            position: relative;
+            span.notifc {
+                background-color: $cor-03;
+                color: $cor-04;
+                font-size: .7em;
+                width: 1.4em;
+                height: 1.4em;
+                border-radius: 50%;
+                position: absolute;
+                top: -10px;
+                left: 4px;
+                
+            }
+            a {
+                font-size: 1em;
+                font-weight: bold;
+                color: $cor-02;
+                svg {
+                    width: 20px;
+                }
+                &hover {
+                    color: initial;
+                }
+            }
+        }
+
+    }
+}
