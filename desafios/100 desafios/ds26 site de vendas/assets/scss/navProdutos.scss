@@ -1,0 +1,44 @@
+nav.nav-produtos {
+    background-color: $cor-02;
+    color: $cor-04;
+}
+
+ul.nav {
+    li {
+        position: relative;
+        padding: .7em 0;
+        
+        svg {
+            width: 1.5em;
+            margin-right: .7em;
+        }
+
+        &:hover {
+            ul.nav {
+                z-index: 999;
+                display: flex;
+                position: absolute;
+                top: 46px;
+                background-color: $cor-02;
+                border-top: 10px solid $cor-01;
+                width: 100%;
+               justify-self: center;
+               align-items: center;
+               li{
+                a {
+                    color: $cor-04;
+                    margin-bottom: .5em;
+                &:hover {
+                    color: $cor-01;
+                }
+                }
+                
+               }
+            }
+        }
+
+        ul.nav {
+            display: none;
+        }
+    }
+}
