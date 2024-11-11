@@ -184,6 +184,7 @@ const abrirCarrinho = () => {
 }
 
 
+
 const AtualizarCarrinho = () => {
     // Exibir número de itens no carrinho
     seleciona('.menu-openner span').innerHTML = cart.length;
